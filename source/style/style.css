@@ -17,11 +17,33 @@ div li{
     div li{
         text-align: center;
     }
+    .circle{
+        width: 150px;
+        display: block;
+        margin: auto;
+    }
+    .foto{
+        border-radius: 25%;
+        max-width: 100%;
+        max-height: 100%;
+        
+    }
 }
 @media screen and (min-width: 991px){
     div li{
         text-align: left;
     }
+}
+nav li{
+    list-style-type: none;
+    display: inline;
+    margin: 20px;
+    font-size: 18px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: white;
 }
 
 nav li:hover{
@@ -66,9 +88,7 @@ nav li:hover{
     margin: auto;
 }
 
-main{
-    padding: 100px 0;
-}
+
 
 .custom-shape-divider-bottom-1613813361 {
     position: absolute;
